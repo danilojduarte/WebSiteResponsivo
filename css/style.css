@@ -19,7 +19,7 @@
     --color-p-2: #868585;
 }
 
-.section__header {
+.section__backgroung {
     background: var(--green-dark);
 }
 
@@ -38,7 +38,7 @@
     background-image: var(--degrade-btn);
 }
 
-/* Classes do site */
+/* Inicio do Header */
 
 nav {
     display: flex;
@@ -67,3 +67,34 @@ nav {
     color: var(--color-white);
 }
 
+/* Inicio do Main */
+main .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.main__text {
+    width: 50%;
+    color: var(--color-white);
+}
+
+.main__text h1 {
+    font-size: 4.5rem;
+}
+
+.main__text .button {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 2rem;
+}
+
+.main__img {
+    width: 50%;
+}
+
+.main__img img {
+    width: 100%;
+}
