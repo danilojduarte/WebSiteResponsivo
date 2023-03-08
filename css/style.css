@@ -29,6 +29,14 @@
     padding: 0 5%;
     margin: 0 auto;
 }
+.btn-gradient {
+    padding: 10px 20px;
+    color: var(--color-white);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-image: var(--degrade-btn);
+}
 
 /* Classes do site */
 
@@ -36,6 +44,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
 }
 
 .logo a {
@@ -45,5 +54,17 @@ nav {
 }
 
 .ul {
-    
+    display: flex;
+    align-items: center;
 }
+
+.ul li {
+    margin: 0 35px;
+    font-size: 15px;
+}
+
+.ul li a {
+    color: var(--color-white);
+}
+
+.
