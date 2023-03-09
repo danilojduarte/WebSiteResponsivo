@@ -102,6 +102,8 @@ main .container {
 /* Menu Icon */
 .menu__icon {
     display: none;
+    z-index: 10;
+    position: relative;
 }
 
 
@@ -114,10 +116,34 @@ main .container {
     }
     .ul {
         position: fixed;
-        background: red;
+        background: var(--green-dark);
         top: 0;
         width: 100%;
         height: 100%;
         left: 100%;
+        transition: all 0.3s ease;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ul li {
+        font-size: 20px;
+        margin: 20px;
+    }
+    .ul.ativo {
+        left: 0;
+    }
+    main .container {
+        flex-direction: column;
+    }
+    main .container .main__text h1 {
+        font-size: 4rem;
+    }
+    main .container .main__img,
+    main .container .main__text {
+        width: 100%;
+        text-align: center;
+    }
+    main .container .main__text div {
+        justify-content: center;
     }
 }
