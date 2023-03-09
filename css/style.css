@@ -98,3 +98,26 @@ main .container {
 .main__img img {
     width: 100%;
 }
+
+/* Menu Icon */
+.menu__icon {
+    display: none;
+}
+
+
+
+/* Responsividade */
+
+@media (max-width: 960px){
+    .menu__icon {
+        display: block;
+    }
+    .ul {
+        position: fixed;
+        background: red;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        left: 100%;
+    }
+}
