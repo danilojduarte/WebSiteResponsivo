@@ -149,6 +149,31 @@ main .container {
 
 }
 
+/* Section Diferencias */
+
+.diferencias .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.diferencias .card {
+    width: 30%;
+    cursor: pointer;
+    padding: 30px;
+    border-radius: 15px;
+    
+}
+
+.diferencias .card img {
+    width: 60px;
+}
+
+.diferencias .card .card__titulo {
+    margin: 13px 0;
+    font-weight: 600;
+}
+
 /* Responsividade */
 
 @media (max-width: 960px){
