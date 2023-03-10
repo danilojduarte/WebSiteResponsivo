@@ -31,7 +31,8 @@
     margin: 0 auto;
 }
 
-section {
+section,
+footer {
     padding: 2.7rem 0;
 }
 .btn-gradient {
@@ -185,5 +186,26 @@ main .container {
     }
     main .container .main__text div {
         justify-content: center;
+    }
+    .resultados .container {
+        flex-direction: column;
+    }
+
+    .resultados .resultados__text,
+    .resultados .resultados__numeros {
+        width: 100%;
+        text-align: center;
+    }
+
+    .resultados__numeros {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 440px) {
+    .resultados .resultados__numeros {
+        flex-direction: column;
+    }
+    .container .main__text h1 {
+        font-size: 3rem;
     }
 }
