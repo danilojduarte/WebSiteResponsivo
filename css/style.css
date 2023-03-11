@@ -273,6 +273,14 @@ main .container {
     .diferencias .card {
         width: 100%;
     }
+    .casa .container {
+        flex-direction: column-reverse;
+    }
+    .casa .casa__text,
+    .casa .casa__img {
+        width: 100%;
+        text-align: center;
+    }
 }
 @media (max-width: 440px) {
     .resultados .resultados__numeros {
