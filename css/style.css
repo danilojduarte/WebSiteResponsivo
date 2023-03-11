@@ -178,6 +178,25 @@ main .container {
     font-weight: 600;
 }
 
+/* Section Casa */
+.casa .container {
+    display: flex;
+    align-items: center;
+}
+
+.casa .casa__img {
+    width: 50%;
+}
+
+.casa .casa__img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.casa .casa__text {
+    width: 50%;
+}
+
 /* Responsividade */
 
 @media (max-width: 960px){
