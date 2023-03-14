@@ -280,6 +280,7 @@ main .container {
     .casa .casa__img {
         width: 100%;
         text-align: center;
+        padding: 0;
     }
 }
 @media (max-width: 440px) {
