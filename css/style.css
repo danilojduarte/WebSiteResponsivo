@@ -247,10 +247,22 @@ main .container {
 }
 
 .melhores__lugares .cards .nome__casa {
-    
+    font-size: 30px;
+    font-weight: 500;
 }
 
+.melhores__lugares.cards .contato {
+    margin-bottom: 20px;
+    color: var(--color-p-2);
+}
 
+.melhores__lugares .cards button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: var(--orange-color-2);
+    border: none;
+    border-radius: 10px;
+}
 
 
 /* Responsividade */
@@ -318,6 +330,13 @@ main .container {
         width: 100%;
         text-align: center;
         padding: 0;
+    }
+    .melhores__lugares .cards {
+        flex-direction: column;
+    }
+    .melhores__lugares .cards .card__item {
+        width: 100%;
+        margin-top: 50px;
     }
 }
 @media (max-width: 440px) {
