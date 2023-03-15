@@ -384,6 +384,23 @@ main .container {
         width: 100%;
         margin-top: 50px;
     }
+    
+    .newsletter .box__newsletter {
+        padding: 50px;
+    }
+
+    .newsletter .box__newsletter h2 {
+        font-size: 2rem;
+    }
+
+    .newsletter .box__newsletter input {
+        width: 90%;
+    }
+
+    .newsletter .box__newsletter .button {
+        width: 50%;
+        margin-top: 20px;
+    }
 }
 @media (max-width: 440px) {
     .resultados .resultados__numeros {
