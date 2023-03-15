@@ -270,6 +270,46 @@ main .container {
     background-color: var(--green-color);
 }
 
+.newsletter .box__newsletter {
+    text-align: center;
+    padding: 100px;
+
+    background-image: url(../img/background-newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.newsletter .box__newsletter p {
+    margin: 13px 0;
+}
+
+.newsletter .box__newsletter h2 {
+    font-size: 2.5rem;
+}
+
+.newsletter .box__newsletter input {
+    width: 35%;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: #00000098;
+    background-color: #faefda;
+}
+
+.newsletter .box__newsletter button {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 14px;
+    color: var(--color-white);
+    background-color: var(--green-color);
+    cursor: pointer;
+}
+
 
 /* Responsividade */
 
