@@ -264,6 +264,12 @@ main .container {
     border-radius: 10px;
 }
 
+/* Section Newsletter  */
+
+.newsletter {
+    background-color: var(--green-color);
+}
+
 
 /* Responsividade */
 
