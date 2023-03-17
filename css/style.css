@@ -436,6 +436,13 @@ footer .container a {
         width: 50%;
         margin-top: 20px;
     }
+    footer .container {
+        flex-direction: column;
+    }
+    footer .container {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
 @media (max-width: 440px) {
     .resultados .resultados__numeros {
