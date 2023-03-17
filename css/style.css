@@ -310,6 +310,11 @@ main .container {
     cursor: pointer;
 }
 
+/* Footer */
+footer {
+    background-color: var(--green-dark);
+}
+
 
 /* Responsividade */
 
